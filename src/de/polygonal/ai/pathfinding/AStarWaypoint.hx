@@ -105,6 +105,6 @@ class AStarWaypoint implements Heapable<AStarWaypoint>
 	
 	public function toString():String
 	{
-		return Sprintf.format("{AStarWaypoint: x=%.2f, y=%.2f}", [x, y]);
+		return Sprintf.format('{AStarWaypoint: x=%.2f, y=%.2f}', [x, y]);
 	}
 }
